@@ -4,10 +4,13 @@
  *단어는 공백으로 분리한다.
  */
 //InputStreamReader, StringTokenizer
+
 package 과제1;
+
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
+
 public class report1 {
 
 	public static void main(String[] args) {
