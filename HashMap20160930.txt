@@ -1,0 +1,7 @@
+
+hashMap<K,Y>
+k = key  (중복 x
+v = value (중복 ㅇ
+k,v ; 객체이어야 함, 게본데이터 타입 x
+	예; int,double x
+	    integer ,String o
