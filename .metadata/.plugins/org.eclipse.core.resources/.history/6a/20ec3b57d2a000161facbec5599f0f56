@@ -1,0 +1,19 @@
+//20161102 saori
+//class 만들 떄 super class 지정(jframe...)
+
+import java.awt.Color;
+import java.awt.*;
+
+import javax.swing.JFrame;	
+public class Myframe extends JFrame {
+	public Myframe(){
+		this.setTitle("saori~");
+		this.setSize(300, 180);
+		Container contentPane = this.getContentPane();
+		contentPane.setBackground(Color.yellow);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setVisible(true);
+		
+	}
+
+}
