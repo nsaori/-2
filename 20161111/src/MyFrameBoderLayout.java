@@ -11,13 +11,15 @@ public class MyFrameBoderLayout extends JFrame{
 		this.setSize(300, 250);
 		
 		Container cp = this.getContentPane();
-		cp.setLayout(new BorderLayout());
+		cp.setLayout(new BorderLayout(30,20));
 		
 		cp.add(new JButton("north"), BorderLayout.NORTH);
 		cp.add(new JButton("west"), BorderLayout.WEST);
 		cp.add(new JButton("center"), BorderLayout.CENTER);
 		cp.add(new JButton("east"), BorderLayout.EAST);
 		cp.add(new JButton("south"), BorderLayout.SOUTH);
+		
+		
 		
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setVisible(true);
