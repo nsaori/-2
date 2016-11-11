@@ -28,7 +28,7 @@
 	<section name="GitCommitMessageComponent">
 	</section>
 	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
-		<item value="500,500" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="560,425" key="STAGING_SASH_FORM_WEIGHT"/>
 		<item value="true" key="sortItemState"/>
 		<item value="500,500" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
 	</section>

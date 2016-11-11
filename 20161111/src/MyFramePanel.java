@@ -9,6 +9,7 @@ public class MyFramePanel extends JFrame {
 		this.setTitle("panel");
 		this.setSize(300, 250);
 		
+		//panel------------------------------------
 		JPanel p = new JPanel();
 		p.setLayout(new GridLayout(3, 2, 30, 25));
 		
@@ -20,7 +21,7 @@ public class MyFramePanel extends JFrame {
 		p.add(new Button("6"));
 		
 		this.add(p);
-		
+		//----------------------------------------//
 		
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setVisible(true);

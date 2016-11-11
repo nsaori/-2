@@ -1,0 +1,17 @@
+//2013110023 노다 사오리
+
+import java.awt.Button;
+import java.awt.GridLayout;
+import java.awt.Panel;
+
+public class p2 extends Panel {
+
+	this.setLayout(new GridLayout(3, 2, 30, 25));
+	
+	this.add(new Button("1"));
+	this.add(new Button("2"));
+	this.add(new Button("3"));
+	this.add(new Button("4"));
+	this.add(new Button("5"));
+	this.add(new Button("6"));
+}

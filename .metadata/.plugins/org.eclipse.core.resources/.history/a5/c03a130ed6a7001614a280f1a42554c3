@@ -1,0 +1,13 @@
+//20161111 saori
+//myframepanel ->  panal class
+
+import javax.swing.JFrame;
+import javax.swing.*;
+import java.awt.*;
+
+public class MyFrame2 extends JFrame {
+
+	public MyFrame2() {
+		this.setTitle("myframe2");
+	}
+}

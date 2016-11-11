@@ -1,0 +1,25 @@
+//20161111 saori
+
+import java.awt.*;
+import javax.swing.*;
+
+public class MyFrameBoderLayout extends JFrame{
+
+	public MyFrameBoderLayout(){
+		
+		this.setTitle("boderLayout");
+		this.setSize(300, 250);
+		
+		Container cp = this.getContentPane();
+		cp.setLayout(new BorderLayout());
+		
+		cp.add(new JButton("n"), BorderLayout.NORTH);
+		cp.add(new JButton("w"), BorderLayout.WEST);
+		cp.add(new JButton("c"), BorderLayout.CENTER);
+		cp.add(new JButton("e"), BorderLayout.EAST);
+		cp.add(new JButton("s"), BorderLayout.SOUTH);
+		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setVisible(true);
+	}
+}

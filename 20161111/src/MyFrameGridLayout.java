@@ -24,3 +24,4 @@ public class MyFrameGridLayout extends JFrame {
 		this.setVisible(true);
 	}
 }
+//default ayout = border layout~~~

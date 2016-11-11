@@ -1,10 +1,3 @@
 INDEX VERSION 1.129+C:\Users\user\Desktop\ns\objective_programming_java\.metadata\.plugins\org.eclipse.jdt.core
 102685019.index
-4058964311.index
-4207793981.index
-1602472889.index
-1978970313.index
-2093596927.index
-299786280.index
-3413132602.index
-4177885206.index
+3222647727.index
