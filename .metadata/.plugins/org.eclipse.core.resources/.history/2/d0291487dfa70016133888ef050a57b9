@@ -2,15 +2,13 @@
 
 import java.awt.*;
 
-import javax.swing.JButton;
-
 public class p2 extends Panel {
 	public p2() {
 		this.setLayout(new FlowLayout());
 		
-		this.add(new JButton("Open"));
-		this.add(new JButton("Read"));
-		this.add(new JButton("Close"));
+		this.add(new Button("Open"));
+		this.add(new Button("Read"));
+		this.add(new Button("Close"));
 		
 		setBackground(Color.LIGHT_GRAY);
 	}

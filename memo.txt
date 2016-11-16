@@ -1,0 +1,4 @@
+event 처리 과정
+	-event source object(ex; crich a button)
+	-event object	(anvisiable)
+	-event listener object (code)
