@@ -12,16 +12,24 @@ public class MyListener implements MouseListener {
 	@Override
 	public void mouseClicked(MouseEvent e) {
 		// TODO Auto-generated method stub
-		
+		/*
+		MyPanel p = (MyPanel)e.getSource();
+		p.setBackground(Color.pink);
+		*/
 	}
 
 	@Override
 	public void mouseEntered(MouseEvent e) {
 		//button color -> red
 		JButton b = (JButton)e.getSource();
+		
 		originColor = b.getBackground();
 		b.setBackground(Color.red);
 		
+		/*
+		MyPanel p = (MyPanel)e.getSource();
+		p.setBackground(Color.pink);
+		*/
 	}
 
 	@Override
