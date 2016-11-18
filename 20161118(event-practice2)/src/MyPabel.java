@@ -1,0 +1,18 @@
+import javax.swing.JButton;
+import javax.swing.JPanel;
+
+
+
+public class MyPabel extends JPanel {
+
+	public JButton b;
+	public MyPabel(){
+		b = new JButton("버튼이 눌려주새요.");
+		this.add(b);
+		
+		/*
+		MyListener ml = new MyListener();
+		b.addActionListener(ml);
+		*/
+	}
+}
