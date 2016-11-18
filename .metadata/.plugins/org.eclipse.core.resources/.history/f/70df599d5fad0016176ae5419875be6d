@@ -1,0 +1,55 @@
+import java.awt.Color;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class MyFrame extends JFrame implements MouseListener{
+
+	public MyFrame(){
+		this.setTitle("frame & listener °â¿ë");
+		this.setSize(300, 200);
+		
+		MyPanel p = new MyPanel();
+		this.add(p);
+		
+		//p.addMouseListener();
+		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setVisible(true);
+	}
+
+	@Override
+	public void mouseClicked(MouseEvent e) {
+		JButton b= (JButton)e.getSource();
+		b.setBackground(Color.white);
+		
+	}
+
+	@Override
+	public void mouseEntered(MouseEvent e) {
+		MyPanel p = (MyPanel)e.getSource();
+		p.setBackground(Color.CYAN);
+		
+	}
+
+	@Override
+	public void mouseExited(MouseEvent e) {
+		MyPanel p = (MyPanel)e.getSource();
+		p.setBackground(Color.MAGENTA);
+		
+	}
+
+	@Override
+	public void mousePressed(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void mouseReleased(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+}

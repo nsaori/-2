@@ -15,5 +15,6 @@ public class MyListener  implements ActionListener {
 		JButton b =  (JButton)e.getSource();
 		b.setText("버틑이 눌려졌습니다.");
 		
+		
 	}
 }

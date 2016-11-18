@@ -1,0 +1,5 @@
+import java.awt.event.ActionEvent;
+
+public class MyListener extends ActionEvent {
+
+}

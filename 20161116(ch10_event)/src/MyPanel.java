@@ -7,6 +7,7 @@ import javax.swing.*;
 public class MyPanel extends JPanel {
 	
 	public JButton b;
+	
 	public MyPanel(){
 		
 		//this.setLayout(new FlowLayout());

@@ -1,0 +1,15 @@
+import javax.swing.JFrame;
+
+public class MyFrame extends JFrame {
+
+	public MyFrame(){
+		this.setTitle("frame & listener °â¿ë");
+		this.setSize(300, 200);
+		
+		MyPanel p = new MyPanel();
+		this.add(p));
+		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setVisible(true);
+	}
+}

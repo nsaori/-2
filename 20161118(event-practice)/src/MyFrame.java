@@ -13,6 +13,7 @@ public class MyFrame extends JFrame {
 		
 		MyListener ml = new MyListener();
 		p.b.addMouseListener(ml);
+		p.b1.addMouseListener(ml);
 		//p.addMouseListener(ml);
 		
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

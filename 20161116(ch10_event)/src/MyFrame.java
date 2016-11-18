@@ -11,9 +11,9 @@ public class MyFrame extends JFrame {
 		this.setSize(300, 250);
 		
 		MyPanel p = new MyPanel();
-		this.add(p);
+		this.add(p);	//!!
 		
-		//4.listener object를 등록한다.
+		//4.listener object를 등록한다.!!!!!!!!!!!!!
 		MyListener ml = new MyListener();
 		p.b.addActionListener(ml);
 		

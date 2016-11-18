@@ -1,7 +1,0 @@
-//2013110023 노다 사오리
-
-import javax.swing.JPanel;
-
-public class p1 extends JPanel {
-
-}

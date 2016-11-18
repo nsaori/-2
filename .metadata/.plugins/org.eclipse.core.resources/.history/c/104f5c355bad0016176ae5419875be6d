@@ -1,0 +1,11 @@
+import javax.swing.JButton;
+import javax.swing.JPanel;
+
+public class MyPabel extends JPanel {
+
+	public MyPabel(){
+		JButton b = new JButton("push this");
+		this.add(b);
+		
+	}
+}

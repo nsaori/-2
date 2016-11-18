@@ -1,4 +1,10 @@
 event 처리 과정
-	-event source object(ex; crich a button)
+	-event source object(ex; crick a button)
 	-event object	(anvisiable)
 	-event listener object (code)
+
+-철자--
+1.event source object
+2.event object
+2.event listener object
+4.등록

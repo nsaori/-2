@@ -1,0 +1,15 @@
+//2013110023 saori
+
+import java.awt.*;
+import javax.swing.*;
+
+public class MyPanel extends JPanel {
+	
+	public MyPanel(){
+		
+		this.setLayout(new FlowLayout());
+		
+		this.add(new JButton("버튼을 눌러주세요."));
+	}
+
+}

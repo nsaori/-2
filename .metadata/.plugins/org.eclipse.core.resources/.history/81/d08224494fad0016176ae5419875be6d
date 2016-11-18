@@ -1,0 +1,20 @@
+//2013110023 saori
+//source object
+
+import java.awt.*;
+import javax.swing.*;
+
+public class MyPanel extends JPanel {
+	
+	public MyPanel(){
+		
+		//this.setLayout(new FlowLayout());
+		JButton b = new JButton("버튼을 눌러주세요.");
+		this.add(b);
+		
+		//4.listener object를 등록한다.
+		MyListener ml = new MyListener();
+		b.addActionListener(ml);
+	}
+
+}

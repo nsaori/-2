@@ -1,5 +1,0 @@
-import javax.swing.JFrame;
-
-public class MyFrame2 extends JFrame {
-
-}
