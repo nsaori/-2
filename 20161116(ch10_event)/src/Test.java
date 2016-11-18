@@ -6,7 +6,7 @@ public class Test extends JFrame {
 
 	public static void main(String[] args) {
 		MyFrame f = new MyFrame();
-		MyPanel p = new MyPanel();
+		
 
 	}
 

@@ -1,4 +1,5 @@
 //2013110023 노다 사오리
+//source object
 
 import java.awt.*;
 import javax.swing.*;
@@ -8,6 +9,13 @@ public class MyFrame extends JFrame {
 	public MyFrame(){
 		this.setTitle("2013110023 노다 사오리");
 		this.setSize(300, 250);
+		
+		MyPanel p = new MyPanel();
+		this.add(p);
+		
+		//4.listener object를 등록한다.
+		MyListener ml = new MyListener();
+		p.b.addActionListener(ml);
 		
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setVisible(true);
