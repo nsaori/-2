@@ -1,0 +1,22 @@
+//20161118 saori
+
+import javax.swing.JFrame;
+
+public class MyFrame extends JFrame {
+
+	public MyFrame(){
+		this.setTitle("2013110023 nosa saori");
+		this.setSize(300, 250);
+		
+		MyPanel p = new MyPanel();
+		this.add(p);
+		
+		MyListener ml = new MyListener();
+		p.b.addMouseListener(ml);
+		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setVisible(true);
+	}
+	
+	
+}

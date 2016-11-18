@@ -1,0 +1,47 @@
+//20161118saori
+// mouse event
+
+import java.awt.*;
+import java.awt.event.*;
+
+import javax.swing.*;
+
+public class MyListener implements MouseListener {
+	Color originColor = null;
+	
+	@Override
+	public void mouseClicked(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void mouseEntered(MouseEvent e) {
+		//button color -> red
+		JButton b = (JButton)e.getSource();
+		originColor = b.getBackground();
+		b.setBackground(Color.red);
+		
+	}
+
+	@Override
+	public void mouseExited(MouseEvent e) {
+		// TODO Auto-generated method stub
+		JButton b = (JButton)e.getSource();
+		b.setBackground(originColor);
+	}
+
+	@Override
+	public void mousePressed(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void mouseReleased(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}
