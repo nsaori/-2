@@ -4,10 +4,10 @@ import java.awt.event.MouseListener;
 import javax.swing.*;
 
 public class MYListener implements MouseListener {
-
+	MyPanel p ;
 	@Override
 	public void mouseClicked(MouseEvent e) {
-		MyPanel p = (MyPanel)e.getSource();
+		p = (MyPanel)e.getSource();
 		/*
 		//Point pt =  e.getLocationOnScreen();
 		Point pt = e.getPoint();
