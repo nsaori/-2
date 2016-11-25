@@ -19,32 +19,28 @@ public class MyPanel extends JPanel {
 
 		// 1. listener 객체를 생성한다
 		// 2. 등록한다.
-		this.addMouseListener(new MouseListener() {
-
+		this.addMouseListener(
+				new MouseListener() {
 			@Override
 			public void mouseReleased(MouseEvent e) {
 				// TODO Auto-generated method stub
 
 			}
-
 			@Override
 			public void mousePressed(MouseEvent e) {
 				// TODO Auto-generated method stub
 
 			}
-
 			@Override
 			public void mouseExited(MouseEvent e) {
-				// TODO Auto-generated method stub
+				label.setForeground(Color.white);
 
 			}
-
 			@Override
 			public void mouseEntered(MouseEvent e) {
-				// TODO Auto-generated method stub
+				label.setForeground(Color.pink);
 
 			}
-
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				int x = e.getX();
