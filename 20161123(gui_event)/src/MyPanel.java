@@ -9,7 +9,7 @@ public class MyPanel extends JPanel {
 		this.add(myl);
 		
 		MYListener mlsnr = new MYListener();
-		this.addMouseListener(mlsnr);
+		this.addMouseListener(mlsnr);	//¿©±â´Ù!!
 		
 	}
 }

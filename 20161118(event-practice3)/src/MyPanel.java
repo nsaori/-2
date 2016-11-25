@@ -9,7 +9,7 @@ public class MyPanel extends JPanel {
 	 JButton b = new JButton("move event Ã³¸®");
 	 b.setBackground(Color.green);
 	 
-	 b.addMouseListener(f);
+	 //b.addMouseListener(f);
 	 
 	 this.add(b);
 	 
