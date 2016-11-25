@@ -8,39 +8,42 @@ public class MyListener implements MouseListener {
 	@Override
 	public void mouseClicked(MouseEvent e) {
 		mp = (MyPanel)e.getSource();
-		/*
+		
 		int x = e.getX();
 		int y= e.getY();
 		mp.ml.setLocation(x, y);
-		*/
+		/*
 		Point p = e.getPoint();
 		mp.ml.setLocation(p);
+		*/
+		
 
 	}
 
 	@Override
-	public void mouseEntered(MouseEvent e) {
-		// TODO Auto-generated method stub
+	public void mouseEntered(MouseEvent e) {		
 		mp = (MyPanel)e.getSource();
 		mp.setBackground(Color.cyan);
+		
 	}
 
 	@Override
 	public void mouseExited(MouseEvent e) {
-		// TODO Auto-generated method stub
 		mp = (MyPanel)e.getSource();
 		mp.setBackground(Color.magenta);
 	}
 
 	@Override
 	public void mousePressed(MouseEvent e) {
-		// TODO Auto-generated method stub
+		int x =  e.getX();
+		int y = e.getY();
+		mp.lblpt.setText( "Mouse Pressed( "+ x +" , " + y + " )");
 
 	}
 
 	@Override
 	public void mouseReleased(MouseEvent e) {
-		// TODO Auto-generated method stub
+		mp.lblpt.setText( "Mouse Released( "+ e.getX() +" , " + e.getY() + " )");
 
 	}
 
