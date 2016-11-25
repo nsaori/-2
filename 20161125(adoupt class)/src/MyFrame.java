@@ -9,7 +9,7 @@ public class MyFrame extends JFrame {
 		p = new MyPanel();
 		this.add(p);
 		
-		MyListener lietener = new MyListener();
+		MyListener lietener = new MyListener(p);
 		p.addMouseListener(lietener);
 		
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
