@@ -28,17 +28,7 @@ public class MyPanel extends JPanel implements ItemListener{
 	public void itemStateChanged(ItemEvent e) {
 		JCheckBox source = (JCheckBox)e.getSource();
 		
-		int count = 0;
-		if(cb[0].isSelected()){
-			count += 100;
-		}
-		if(cb[1].isSelected()){
-			count += 500;
-		}
-		if(cb[2].isSelected()){
-			count+=20000;
-			
-		}
-		ml2.setText(count + "¿ø");
+		
+		ml2.setText( "¿ø");
 	}
 }
