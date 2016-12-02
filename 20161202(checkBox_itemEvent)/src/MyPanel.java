@@ -3,7 +3,7 @@ import javax.swing.*;
 public class MyPanel extends JPanel {
 
 	public JLabel ml1,ml2;
-	JCheckBox[] cb = new JCheckBox[3];
+	public JCheckBox[] cb = new JCheckBox[3];
 	
 	public MyPanel(){
 		ml1 = new JLabel("사과 100원,배 500원,체리 20000원 ");
