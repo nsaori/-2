@@ -4,7 +4,7 @@ public class MyFrame extends JFrame {
 
 	public MyFrame(){
 		this.setTitle("radioBox item Event");
-		this.setSize(300, 250);
+		this.setSize(250, 250);
 		
 		this.add(new MyPanel());
 		
