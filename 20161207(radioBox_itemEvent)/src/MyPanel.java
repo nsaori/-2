@@ -7,7 +7,7 @@ public class MyPanel extends JPanel {
 	public JRadioButton[] rb = new JRadioButton[3];
 
 	public MyPanel() {
-		this.setLayout(new BorderLayout());
+		this.setLayout(new BorderLayout(30,0));
 		
 		ml1 = new JLabel("사과100원 배500원 체리20000원");
 		this.add(ml1,BorderLayout.NORTH);
