@@ -49,9 +49,10 @@ public class MyPanel extends JPanel {
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			JTextField tf = (JTextField) e.getSource();
-			str += " , " + tf.getText();
+			//str += " , " + tf.getText();
 			//ml4.setText(str);
-			ta.setText(str);
+			//ta.setText(str);
+			ta.append(tf.getText());
 		}
 
 	}
