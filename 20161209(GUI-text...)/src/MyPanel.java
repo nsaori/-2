@@ -9,6 +9,7 @@ public class MyPanel extends JPanel {
 	public JLabel ml1, ml2, ml3, ml4;
 	public JTextField tf1, tf2, tf3;
 	public JTextArea ta;
+	JScrollPane scrollPane_ta;
 
 	public MyPanel() {
 		ml1 = new JLabel("이름: ");
@@ -19,9 +20,10 @@ public class MyPanel extends JPanel {
 		ml3 = new JLabel("주소: ");
 		tf3 = new JTextField("서울시...", 15);
 
-		//ml4 = new JLabel("입력결과: ");
+		// ml4 = new JLabel("입력결과: ");
 		ta = new JTextArea(5, 20);
-		ta.setAutoscrolls(true);
+		//ta.setAutoscrolls(true);
+		scrollPane_ta = new JScrollPane(ta);	//textArea에 scrollber 추가
 
 		// tf1.setSize(10, 30);
 		this.add(ml1);
@@ -30,14 +32,14 @@ public class MyPanel extends JPanel {
 		this.add(tf2);
 		this.add(ml3);
 		this.add(tf3);
-		//this.add(ml4);
-		this.add(ta);
+		// this.add(ml4);
+		//this.add(ta);
+		this.add(scrollPane_ta);
 
 		MyListener ml = new MyListener();
 		tf1.addActionListener(ml);
 		tf2.addActionListener(ml);
 		tf3.addActionListener(ml);
-		
 
 	}
 
@@ -49,9 +51,9 @@ public class MyPanel extends JPanel {
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			JTextField tf = (JTextField) e.getSource();
-			//str += " , " + tf.getText();
-			//ml4.setText(str);
-			//ta.setText(str);
+			// str += " , " + tf.getText();
+			// ml4.setText(str);
+			// ta.setText(str);
 			ta.append(tf.getText());
 		}
 
